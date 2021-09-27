@@ -25,7 +25,7 @@
 
 
 <!-- PROJECT LOGO -->
-<br />
+<!-- <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
@@ -45,12 +45,12 @@
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
-</p>
+</p> -->
 
 
 
 <!-- TABLE OF CONTENTS -->
-<details open="open">
+<!-- <details open="open">
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -73,7 +73,7 @@
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
-</details>
+</details> -->
 
 
 
@@ -118,35 +118,27 @@ Esse é um exemplo de como baixar as imagens e começar a rodar o projeto em con
    docker-compose up
    ```
 
-### Customize a imagem
-
+### Customize a imagem (In development)
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage (In development)
 
-<! --
-*** Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also
-*** link to more resources.
-*** _For more examples, please refer to the [Documentation](https://example.com)_ 
--->
+<!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also
+Link to more resources.
+_For more examples, please refer to the [Documentation](https://example.com)_  -->
 
 
 
 <!-- ROADMAP -->
-<! --
 ## Roadmap (In development)
-*** See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
--->
+<!-- See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues). -->
 
 
 
 <!-- LICENSE -->
 ## License (In development)
-<! --
-*** Distributed under the MIT License. See `LICENSE` for more information.
--->
-
+<!-- Distributed under the MIT License. See `LICENSE` for more information. -->
 
 <!-- CONTACT -->
 ## Fale com a gente!
