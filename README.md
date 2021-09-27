@@ -1,15 +1,158 @@
-# suricato-iot
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-  
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title>diagrams.net</title>
-<meta http-equiv="refresh" content="0;URL='https://app.diagrams.net/#Hlevimurici%2Fsuricato-iot%2Fmain%2Fproject-structure.drawio.html'"/>
-<meta charset="utf-8"/>
-</head>
-<body>
-<div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;xml&quot;:&quot;&lt;mxfile host=\&quot;app.diagrams.net\&quot; modified=\&quot;2021-09-27T18:43:45.151Z\&quot; agent=\&quot;5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36\&quot; etag=\&quot;D-o7SSX-e35mL4kNnVJ5\&quot; version=\&quot;15.3.1\&quot; type=\&quot;github\&quot;&gt;&lt;diagram id=\&quot;jIxO3vC034RxCAkbMJob\&quot; name=\&quot;Page-1\&quot;&gt;7Vttk5s2EP41/ugMIAT44704STuXxomvvbt+6cggY3oYEZBjO7++wggDkmywD7/cTJ1MBq3ed/fZXa2UHribrz4lKJ59IR4Oe4bmrXrgvmcY0LDYvxlhnRN0yxnkFD8JPE4rCePgF+ZEjVMXgYfTWkNKSEiDuE50SRRhl9ZoKEnIst5sSsL6rDHysUQYuyiUqU+BR2c51THskv4ZB/6smFm3+P7mqGjMd5LOkEeWFRIY9sBdQgjNv+arOxxmzCv4kvf7uKN2u7AER7RNB+/vfz7/9avvPNr3i2d/HC2ffvzo81F+onDBN9wzbou/m1XTdcGKhCwiD2ejaT1wu5wFFI9j5Ga1SyZ8RpvRechKOvucBmF4R0KSbPqC6RRbrsvoKU3IK67UePZgomUDyvspFocTilcVEt/fJ0zmmCZr1oTXDjirubL1HZsTlqXo9EIes4rYLE5DXFv87dAlQ9kH5+kB/DUU/H13bNU1ka/WpflqSWzEHsMtL5KEzohPIhQOS+ptndFlmwdCYs7efzGla26E0IKSOvPxKqDPle+XbKgPkJfuV3zkTWFdFCK23edqodIrK5bdNqWiX0pRQm8yA8YIEYnwPlGmZJG4eB/MHW46UeJjuqchzNtlzNyrGQkOEQ1+1o1k51IGEnqG4xEb6QnPSfoegaSLQIKXBpLzXoB0vPJ3rtO864gEbClb4UJoCcI1BKHl6OPdBLlt13G8KAuQ15yNFdJMq2MUsW8/+/59/PWPgs7mqVZJusBiljj7TCnO8BPjJGCrxAknjcpyM95WuAjvlPibGjvwZ00sxtlO8GfYIv6A8QFKCHQUADTgiQCoD5pDhCuF5LG+DUdeZ54NtHRsBThObQUMIKqYaAXyLUlWQBrJlKKuM9sTQz4c3BP3FSd9l8xjkmLZXCyDeYj2S7Q9WoGI1oEme0tgqsA6OJW7BLq06TOCswTkS6WmCZwlHl9qcFSDUxbcXuU4NZ50q64EuiMY4rZwEgcygDDQDjQxS4XWlWZx1iBtv2BDh4etq96efeQr6BTa4KI+5grVuNF/FIms0+s7FPS9nft4q5oW87RWU62hvQb3tT+NWhdB2v9q3ToxcC4zbut1dQNnPhvJsUxEPNxPmOBFlWk4yaA0zhPNmyON4ijjuFh9lJk40IRHSPGABINZZ7MivWCdM7sAJa5/+fb4KIM0DIM4xc2nyCbeexA7nqnivWNMgKU+RnbEe1O7KtYXDqvC+0ccYj9B8/4toV1rvYewM1VqveU6eDI9JecdMbKTWQ8VrIcnOyQMrscNaXvdUNfuBBpncieDHSI/+FTgCOGWeHI8sV8qdPDC2Z+u9QDw69HGsNocdK0wb0OuLYlj+Dz6PhyP+zej3yTJvOnGAWZ/lAZz88t6kIhW6PnvpOGDkHLSFZZ0SzuLFzPl7Oj424MkiCJP7a7DgEkkAc3imOSye5hsCch99TcS/bqgbJgiU53ypDW8rnDDEA9wRruAQzxPdhfrGZKonobdviK4ZJChm6LLkS8OBgp+m6fit9XGdZSZdjdEaRrkzKtcLZfkzu/nzhRKtIzy3prXF8UvRo9tIw7xkUqRGOk6DynNA8+RV7zodbL2JnXtPLYBVxXaQPOiojkgN3a8aM6VpIXiOw7Y8mruUBCbNhQmAvvTrk0dTgN7KOd5/hwPv8thWnk/KHh2rLNYylZ59oFlA2QVbosrmqEOgw926lAT2aV6Magp3Ioumm2F1nzHLkWRz3ZfmVDQHKC407QV8xmgPh0KKU4iRPFtBtFUMg8dSNVsEWAUgfdiHt64NJPZbcb9wGU2Ak1wOCJpQAMSsSYTQimZVxrchIGfVVAiRH0kj7/vtk96NVlhEPObhvr49FHTNg+2hOPTdPNrH6lslbr9hXVdmRSHp7OenSw5IJddwJEB4o7ri23drpcfneSoWoeQsKWnvrJYU3r5YR0bbJpQGMluGW022xBWLN+u583L/wEAhv8B&lt;/diagram&gt;&lt;/mxfile&gt;&quot;,&quot;toolbar&quot;:&quot;pages zoom layers lightbox&quot;,&quot;page&quot;:0}"></div>
-<a style="position:absolute;top:50%;left:50%;margin-top:-128px;margin-left:-64px;" href="https://app.diagrams.net/#Hlevimurici%2Fsuricato-iot%2Fmain%2Fproject-structure.drawio.html" target="_blank"><img border="0" src="https://app.diagrams.net/images/drawlogo128.png"/></a>
-</body>
-</html>
+
+
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+
+
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Best-README-Template</h3>
+
+  <p align="center">
+    An awesome README template to jumpstart your projects!
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+  </p>
+</p>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## Sobre o Suricato-IOT
+
+[![Product Name Screen Shot][product-screenshot]](https://raw.githubusercontent.com/levimurici/suricato-docker/main/project-structure.drawio.png)
+
+O projeto Suricato-IOT visa integrar dispositivos ESP/Wemos (microcontroladores com dispositivos Wifi) em uma interface central de controle onde todo o sistema é dividido em microsserviços. O objetivo central é colher dados analógicos do ambiente, controle de alarmes e integração bluetooth e subir em uma rest API. Todos esses dados serão lidos e controlados pela plataforma web chamada Suricato.
+
+O objetivo central do projeto é trabalhar a cultura do DIY baseada na construção dos dispositivos eletrônicos e adiciona-los genericamente a plataforma web. 
+
+### Plataforma baseada em
+
+This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+* [Docker](https://www.docker.com/)
+* [Node-red](https://nodered.org/)
+* [MQTT](https://mqtt.org/)
+* [Express-RestAPI](https://expressjs.com/pt-br/api.html)
+
+
+<!-- GETTING STARTED -->
+## Instalação
+
+Esse é um exemplo de como baixar as imagens e começar a rodar o projeto em containers via *docker-compose*
+
+* [Install Docker - Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
+* [Install Docker - Windows](https://docs.docker.com/desktop/windows/install/)
+
+### Como rodar
+
+1. Clone o repositório
+   ```sh
+   git clone https://github.com/levimurici/suricato-iot
+   ```
+2. Acesse o a pasta do repositório
+   ```sh
+   cd suricato-iot
+   ```
+3. Inicie os containers com o `docker-compose`
+   ```sh
+   docker-compose up
+   ```
+
+### Customize a imagem
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage (In development)
+
+<! --
+*** Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also
+*** link to more resources.
+*** _For more examples, please refer to the [Documentation](https://example.com)_ 
+-->
+
+
+
+<!-- ROADMAP -->
+<! --
+## Roadmap (In development)
+*** See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+-->
+
+
+
+<!-- LICENSE -->
+## License (In development)
+<! --
+*** Distributed under the MIT License. See `LICENSE` for more information.
+-->
+
+
+<!-- CONTACT -->
+## Fale com a gente!
+
+Levi Murici- [@Levimurici](https://twitter.com/levimurici) - levismurici@gmail.com
+Wesley Decote- [@MDecote](https://twitter.com/MDecote) - wesleydecote@live.com
+
+Link do Projeto: [https://github.com/levimurici/suricato-iot](https://github.com/levimurici/suricato-iot)
+
