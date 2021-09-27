@@ -144,6 +144,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_  -
 ## Fale com a gente!
 
 Levi Murici- [@Levimurici](https://twitter.com/levimurici) - levismurici@gmail.com
+
 Wesley Decote- [@MDecote](https://twitter.com/MDecote) - wesleydecote@live.com
 
 Link do Projeto: [https://github.com/levimurici/suricato-iot](https://github.com/levimurici/suricato-iot)
