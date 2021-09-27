@@ -2,7 +2,7 @@ version: "3"
 services:
   broker:
     container_name: mqtt
-    image: levimurici/mqtt
+    image: dendebaiano/suricato-mqtt
     volumes:
       - /mosquitto:/etc/mosquitto
     networks:
@@ -13,7 +13,7 @@ services:
   
   node-red:
     container_name: node-red
-    image: levimurici/node-red
+    image: dendebaiano/suricato-nodered
     ports:
       - "1880:1880"
     volumes:
@@ -26,7 +26,7 @@ services:
 
   api:
     container_name: api
-    image: levimurici/express-api
+    image: dendebaiano/suricato-api
     ports:
      - 3000:3000
     networks:
@@ -40,4 +40,4 @@ volumes:
 
 networks:
   rede-docker:
-    driver: bridge
+    driver: bridge:
