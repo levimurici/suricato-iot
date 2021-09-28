@@ -50,7 +50,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary>Sumário</summary>
+  <summary>Sumário e tópicos</summary>
   <ol>
     <li>
       <a href="#sobre-o-suricato-iot">Sobre o projeto</a>
@@ -84,13 +84,10 @@ O projeto Suricato-IOT visa integrar dispositivos ESP/Wemos (microcontroladores 
 O objetivo central do projeto é trabalhar a cultura do DIY baseada na construção dos dispositivos eletrônicos e adiciona-los genericamente a plataforma web. 
 
 ### Plataforma baseada em
-
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [Docker](https://www.docker.com/)
 * [Node-red](https://nodered.org/)
 * [MQTT](https://mqtt.org/)
 * [Express-RestAPI](https://expressjs.com/pt-br/api.html)
-
 
 <!-- GETTING STARTED -->
 ## Iniciando
