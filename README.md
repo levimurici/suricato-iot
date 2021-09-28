@@ -15,65 +15,60 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![Contributors][contributors-shield]][https://github.com/levimurici/suricato-iot/graphs/contributors]
+[![Forks][forks-shield]][https://github.com/levimurici/suricato-iot/network/members]
+[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/levi-nogueira-61694ab3/]
 
 
 
 <!-- PROJECT LOGO -->
-<!-- <br />
+<br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/levimurici/suricato-iot">
+    <img src="SuricatoLogoWhite.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Suricato-IOT</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Faça um sistema home-IOT do seu jeito!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/levimurici/suricato-iot"><strong>Explore a doc »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://www.khmersubtitles.com/">View Demo (in dev)</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/levimurici/suricato-iot/issues">Report Bug (in dev)</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/levimurici/suricato-iot/issues">Request Feature (in dev)</a>
   </p>
-</p> -->
+</p>
 
 
 
 <!-- TABLE OF CONTENTS -->
-<!-- <details open="open">
+<details open="open">
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#sobre-o-suricato-iot">Sobre o projeto</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#plataforma-baseada-em">Plataforma</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#iniciando">Instalação</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#customize">Customize</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#license">Licença</a></li>
+    <li><a href="#fale-com-a-gente">Fale conosco</a></li>
   </ol>
-</details> -->
+</details>
 
 
 
@@ -96,14 +91,14 @@ This section should list any major frameworks that you built your project using.
 
 
 <!-- GETTING STARTED -->
-## Instalação
+## Iniciando
 
 Esse é um exemplo de como baixar as imagens e começar a rodar o projeto em containers via *docker-compose*
 
 * [Install Docker - Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
 * [Install Docker - Windows](https://docs.docker.com/desktop/windows/install/)
 
-### Como rodar
+### Instalação
 
 1. Clone o repositório
    ```sh
@@ -129,11 +124,9 @@ Link to more resources.
 _For more examples, please refer to the [Documentation](https://example.com)_  -->
 
 
-
 <!-- ROADMAP -->
 ## Roadmap (In development)
 <!-- See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues). -->
-
 
 
 <!-- LICENSE -->
@@ -141,7 +134,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_  -
 <!-- Distributed under the MIT License. See `LICENSE` for more information. -->
 
 <!-- CONTACT -->
-## Fale com a gente!
+## Fale com a gente
 
 Levi Murici- [@Levimurici](https://twitter.com/levimurici) - levismurici@gmail.com
 
