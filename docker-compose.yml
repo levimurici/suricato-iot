@@ -40,4 +40,4 @@ volumes:
 
 networks:
   rede-docker:
-    driver: bridge:
+    driver: bridge
