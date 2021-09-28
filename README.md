@@ -95,14 +95,32 @@ O objetivo central do projeto é trabalhar a cultura do DIY baseada na construç
 * [suricato-web (in-dev)]()
 
 <!-- GETTING STARTED -->
-## Iniciando
+## Instalação e liberação do docker como sudo
 
 Esse é um exemplo de como baixar as imagens e começar a rodar o projeto em containers via *docker-compose*
 
-* [Install Docker - Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
+* [Install Docker - Linux](https://docs.docker.com/engine/install/ubuntu/)
+* [Passos pós-instalação - Linux](https://docs.docker.com/engine/install/linux-postinstall/)
 * [Install Docker - Windows](https://docs.docker.com/desktop/windows/install/)
 
-### Instalação
+1. Criar o grupo `docker`
+   ```sh
+   sudo groupadd docker
+   ```
+2. Adicionar seu usuário ao grupo
+   ```sh
+   sudo usermod -aG docker $USER
+   ```
+3. Sai e entre, para que seja validado como
+   ```sh
+   newgrp docker
+   ```
+4. Agora você pode rodar o `docker` sem o `sudo`
+   ```sh
+   docker run hello-world
+   ```
+
+### Inicialização do projeto
 
 1. Clone o repositório
    ```sh
