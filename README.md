@@ -123,7 +123,7 @@ Esse é um exemplo de como baixar as imagens e começar a rodar o projeto em con
 
 
 
-### Inicialização do projeto
+## Inicialização do projeto
 
 1. Clone o repositório
    ```sh
