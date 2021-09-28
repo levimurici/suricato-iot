@@ -120,6 +120,9 @@ Esse é um exemplo de como baixar as imagens e começar a rodar o projeto em con
    docker run hello-world
    ```
 
+
+
+
 ### Inicialização do projeto
 
 1. Clone o repositório
@@ -134,6 +137,9 @@ Esse é um exemplo de como baixar as imagens e começar a rodar o projeto em con
    ```sh
    docker-compose up
    ```
+
+
+
 
 ### Customize a imagem (In development)
 
