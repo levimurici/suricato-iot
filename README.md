@@ -27,7 +27,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/levimurici/suricato-iot">
-    <img src="images/SuricatoLogoWhite.png" alt="Logo" width="240" height="240">
+    <img src="images/SuricatoLogoWhite.png" alt="Logo" width="400" height="80">
   </a>
 
   <h3 align="center">Suricato-IOT</h3>
