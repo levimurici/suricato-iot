@@ -30,7 +30,7 @@
     <img src="images/SuricatoLogoWhite.png" alt="Logo" width="400" height="80">
   </a>
 
-  <h3 align="center">Suricato-IOT</h3>
+<!--   <h3 align="center">Suricato-IOT</h3> -->
 
   <p align="center">
     Faça um sistema home-IOT do seu jeito!
@@ -50,7 +50,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary>Table of Contents</summary>
+  <summary>Sumário</summary>
   <ol>
     <li>
       <a href="#sobre-o-suricato-iot">Sobre o projeto</a>
