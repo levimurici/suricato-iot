@@ -89,6 +89,10 @@ O objetivo central do projeto é trabalhar a cultura do DIY baseada na construç
 * [MQTT](https://mqtt.org/)
 * [Express-RestAPI](https://expressjs.com/pt-br/api.html)
 
+### Sub-gits
+* [suricato-docker](https://github.com/levimurici/suricato-docker)
+* [suricato-red](https://github.com/levimurici/suricato-red)
+
 <!-- GETTING STARTED -->
 ## Iniciando
 
