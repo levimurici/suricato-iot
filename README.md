@@ -92,6 +92,7 @@ O objetivo central do projeto é trabalhar a cultura do DIY baseada na construç
 ### Sub-gits
 * [suricato-docker](https://github.com/levimurici/suricato-docker)
 * [suricato-red](https://github.com/levimurici/suricato-red)
+* [suricato-web (in-dev)]()
 
 <!-- GETTING STARTED -->
 ## Iniciando
