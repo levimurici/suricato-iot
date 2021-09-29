@@ -40,35 +40,10 @@
         "sessionExpiry": ""
     },
     {
-        "id": "1b3c63a4.c275cc",
-        "type": "mqtt-broker",
-        "name": "aedes:1883",
-        "broker": "localhost",
-        "port": "1883",
-        "clientid": "",
-        "usetls": false,
-        "protocolVersion": "4",
-        "keepalive": "60",
-        "cleansession": true,
-        "birthTopic": "",
-        "birthQos": "0",
-        "birthPayload": "",
-        "birthMsg": {},
-        "closeTopic": "",
-        "closeQos": "0",
-        "closePayload": "",
-        "closeMsg": {},
-        "willTopic": "",
-        "willQos": "0",
-        "willPayload": "",
-        "willMsg": {},
-        "sessionExpiry": ""
-    },
-    {
         "id": "ef2bec65.5d157",
         "type": "ui_group",
         "name": "control",
-        "tab": "5ed4c2fb.90985c",
+        "tab": "",
         "order": 1,
         "disp": true,
         "width": 6,
@@ -78,19 +53,11 @@
         "id": "6cb52c32.2d24d4",
         "type": "ui_group",
         "name": "monitor",
-        "tab": "5ed4c2fb.90985c",
+        "tab": "",
         "order": 1,
         "disp": true,
         "width": 8,
         "collapse": false
-    },
-    {
-        "id": "5ed4c2fb.90985c",
-        "type": "ui_tab",
-        "name": "Node-iot-v1",
-        "icon": "iot-v1",
-        "disabled": false,
-        "hidden": false
     },
     {
         "id": "11710002.55962",
@@ -206,25 +173,17 @@
         "id": "89c77bdb4e6a7c56",
         "type": "ui_group",
         "name": "control-tv-ir",
-        "tab": "f7fa06937bf485ef",
+        "tab": "",
         "order": 1,
         "disp": true,
         "width": "4",
         "collapse": false
     },
     {
-        "id": "f7fa06937bf485ef",
-        "type": "ui_tab",
-        "name": "control-ir-tv",
-        "icon": "dashboard",
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "ec3ea2bb2c375d43",
         "type": "ui_group",
         "name": "AC-BANCADA",
-        "tab": "b26c84bb69f542f6",
+        "tab": "",
         "order": 2,
         "disp": true,
         "width": "4",
@@ -234,44 +193,27 @@
         "id": "0c059704f2a4492e",
         "type": "ui_group",
         "name": "control-tv-ir",
-        "tab": "1e05606f01faf337",
+        "tab": "",
         "order": 1,
         "disp": true,
         "width": "4",
         "collapse": false
     },
     {
-        "id": "b26c84bb69f542f6",
-        "type": "ui_tab",
-        "name": "Node-iot-ir",
-        "icon": "dashboard",
-        "order": 2,
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "7c87fb7d7768b778",
         "type": "ui_group",
         "name": "control-sonoff",
-        "tab": "275882d2d7281dd9",
+        "tab": "",
         "order": 1,
         "disp": true,
         "width": "6",
         "collapse": false
     },
     {
-        "id": "275882d2d7281dd9",
-        "type": "ui_tab",
-        "name": "Node-iot-v1",
-        "icon": "iot-v1",
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "3c7ec59465e2a11f",
         "type": "ui_group",
         "name": "AC-CENTRO1",
-        "tab": "b26c84bb69f542f6",
+        "tab": "",
         "order": 3,
         "disp": true,
         "width": "4",
@@ -281,7 +223,7 @@
         "id": "b5424b3e68c13056",
         "type": "ui_group",
         "name": "AC-CENTRO2",
-        "tab": "b26c84bb69f542f6",
+        "tab": "",
         "order": 4,
         "disp": true,
         "width": "4",
@@ -291,43 +233,27 @@
         "id": "04e42f237e32d3f6",
         "type": "ui_group",
         "name": "AC-NOC",
-        "tab": "b26c84bb69f542f6",
+        "tab": "",
         "order": 5,
         "disp": true,
         "width": "4",
         "collapse": false
     },
     {
-        "id": "1e05606f01faf337",
-        "type": "ui_tab",
-        "name": "control-ir-tv",
-        "icon": "dashboard",
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "da7c836cf21a1634",
         "type": "ui_group",
         "name": "BLINDS",
-        "tab": "0cbe443c817cf630",
+        "tab": "",
         "order": 5,
         "disp": true,
         "width": "6",
         "collapse": false
     },
     {
-        "id": "0cbe443c817cf630",
-        "type": "ui_tab",
-        "name": "BLINDS",
-        "icon": "dashboard",
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "af5d7484b110507a",
         "type": "ui_group",
         "name": "CONTROLE-TOTAL",
-        "tab": "b26c84bb69f542f6",
+        "tab": "",
         "order": 1,
         "disp": true,
         "width": 6,
@@ -356,20 +282,11 @@
         "id": "0dc6cb4f74a67ed3",
         "type": "ui_group",
         "name": "sonoff",
-        "tab": "baed8e4a0bb86bb1",
+        "tab": "",
         "order": 1,
         "disp": true,
         "width": "6",
         "collapse": false
-    },
-    {
-        "id": "baed8e4a0bb86bb1",
-        "type": "ui_tab",
-        "name": "sonoff-1",
-        "icon": "sonoff-1",
-        "order": 3,
-        "disabled": false,
-        "hidden": false
     },
     {
         "id": "4f164999.c279e8",
@@ -384,6 +301,25 @@
         "influxdbVersion": "1.8-flux",
         "url": "http://localhost:8086",
         "rejectUnauthorized": false
+    },
+    {
+        "id": "dbafec56b86801bb",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "f548841223aa4099",
+        "type": "ui_spacer",
+        "z": "1f17c67c7ea6aa67",
+        "name": "spacer",
+        "group": "1452aaedcbd7f359",
+        "order": 1,
+        "width": 6,
+        "height": 1
     },
     {
         "id": "d385b0b12460c568",
@@ -418,7 +354,9 @@
         "wires": [
             [
                 "44fa236e278c3eb8",
-                "44a2272d1b21b0a4"
+                "44a2272d1b21b0a4",
+                "cb39fceaf274d577",
+                "2c90243ebef54612"
             ]
         ]
     },
@@ -481,7 +419,7 @@
         "proxy": "",
         "authType": "",
         "x": 570,
-        "y": 140,
+        "y": 160,
         "wires": [
             []
         ]
@@ -494,7 +432,7 @@
         "topic": "device1/xdk110",
         "qos": "2",
         "datatype": "auto",
-        "broker": "1b3c63a4.c275cc",
+        "broker": "dcf414604905f363",
         "nl": false,
         "rap": true,
         "rh": 0,
@@ -529,7 +467,7 @@
         "z": "f2c71d9fb85de873",
         "name": "",
         "group": "1452aaedcbd7f359",
-        "order": 1,
+        "order": 2,
         "width": 0,
         "height": 0,
         "label": "tem-env",
@@ -571,7 +509,7 @@
         "type": "ui_text",
         "z": "f2c71d9fb85de873",
         "group": "1452aaedcbd7f359",
-        "order": 2,
+        "order": 3,
         "width": 0,
         "height": 0,
         "name": "",
@@ -587,7 +525,7 @@
         "type": "ui_text",
         "z": "f2c71d9fb85de873",
         "group": "1452aaedcbd7f359",
-        "order": 3,
+        "order": 4,
         "width": 0,
         "height": 0,
         "name": "",
@@ -603,7 +541,7 @@
         "type": "ui_text",
         "z": "f2c71d9fb85de873",
         "group": "1452aaedcbd7f359",
-        "order": 4,
+        "order": 5,
         "width": 0,
         "height": 0,
         "name": "",
@@ -630,7 +568,8 @@
                 "cd48e90971f837c8",
                 "6b9fb829b915b32c",
                 "9ba8a6051e9c34bf",
-                "85df04085618739d"
+                "85df04085618739d",
+                "aae7875f9296e10f"
             ]
         ]
     },
@@ -942,6 +881,111 @@
             [
                 "9664579c6fe7930f"
             ]
+        ]
+    },
+    {
+        "id": "cb39fceaf274d577",
+        "type": "change",
+        "z": "1f17c67c7ea6aa67",
+        "name": "relay-status",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload.sensors[0].status",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 80,
+        "wires": [
+            [
+                "46b579ff9e24dd93"
+            ]
+        ]
+    },
+    {
+        "id": "2c90243ebef54612",
+        "type": "change",
+        "z": "1f17c67c7ea6aa67",
+        "name": "chave-status",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload.sensors[1].status",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 120,
+        "wires": [
+            [
+                "a2a8d87d6eba3599"
+            ]
+        ]
+    },
+    {
+        "id": "46b579ff9e24dd93",
+        "type": "ui_text",
+        "z": "1f17c67c7ea6aa67",
+        "group": "1452aaedcbd7f359",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "relay-status",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "x": 810,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "a2a8d87d6eba3599",
+        "type": "ui_text",
+        "z": "1f17c67c7ea6aa67",
+        "group": "1452aaedcbd7f359",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "chave-status",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "x": 810,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "aae7875f9296e10f",
+        "type": "http request",
+        "z": "f2c71d9fb85de873",
+        "name": "station/push",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://192.168.101.28:3000/station/push",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 470,
+        "y": 60,
+        "wires": [
+            []
         ]
     }
 ]
