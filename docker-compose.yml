@@ -4,7 +4,7 @@ services:
     container_name: mqtt
     image: dendebaiano/suricato-mqtt:1.0.0
     volumes:
-      - mosquitto:/etc/mosquitto
+      - $(PWD)mosquitto:/etc/mosquitto
     networks:
       - rede-docker
     ports:
