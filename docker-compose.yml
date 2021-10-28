@@ -2,7 +2,7 @@ version: "3"
 services:
   broker:
     container_name: mqtt
-    image: dendebaiano/suricato-mqtt:v1.0.0
+    image: dendebaiano/suricato-mqtt:1.0.0
     volumes:
       - /mosquitto:/etc/mosquitto
     networks:
