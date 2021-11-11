@@ -2,7 +2,7 @@ version: "3"
 services:
   broker:
     container_name: mqtt
-    image: dendebaiano/suricato-mqtt
+    image: dendebaiano/suricato-mqtt:v1.6.9
 #    volumes:
 #      - ./mosquitto:/etc/mosquitto
     networks:
@@ -13,7 +13,7 @@ services:
   
   node-red:
     container_name: node-red
-    image: dendebaiano/suricato-nodered
+    image: dendebaiano/suricato-nodered:1.1
     ports:
       - "1880:1880"
     volumes:
@@ -26,7 +26,7 @@ services:
 
   api:
     container_name: api
-    image: dendebaiano/suricato-api
+    image: dendebaiano/suricato-api:1.1
     ports:
      - 3000:3000
     networks:
