@@ -26,14 +26,38 @@ services:
 
   api:
     container_name: api
-    image: dendebaiano/suricato-api:1.1
+    image: dendebaiano/suricato-api:2.0
     ports:
      - 3000:3000
     networks:
-      - rede-docker
+     - rede-docker
     depends_on:
-     - broker
-     - node-red
+    - broker
+    - node-red
+
+  wd-bot:
+    container_name: wd-bot
+    image: dendebaiano/suricato-wd-bot:1.0
+    ports:
+     - 6565:6565
+    networks:
+     - rede-docker
+    depends_on:
+    - broker
+    - node-red
+    - api
+  
+  main-bot:
+    container_name: main-bot
+    image: dendebaiano/suricato-main-bot:1.0
+    ports:
+     - 6566:6566
+    networks:
+     - rede-docker
+    depends_on:
+    - broker
+    - node-red
+    - api
 
 volumes:
   node-red-data:
