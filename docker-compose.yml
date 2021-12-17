@@ -39,7 +39,7 @@ services:
     container_name: wd-bot
     image: dendebaiano/suricato-wd-bot:1.0
     ports:
-     - 6565:6565
+     - 6969:6969
     networks:
      - rede-docker
     depends_on:
@@ -51,7 +51,7 @@ services:
     container_name: main-bot
     image: dendebaiano/suricato-main-bot:1.0
     ports:
-     - 6566:6566
+     - 6868:6868
     networks:
      - rede-docker
     depends_on:
