@@ -43,9 +43,9 @@ services:
     networks:
      - rede-docker
     depends_on:
-    - broker
-    - node-red
     - api
+    - node-red
+    - broker
   
   main-bot:
     container_name: main-bot
@@ -55,9 +55,9 @@ services:
     networks:
      - rede-docker
     depends_on:
-    - broker
-    - node-red
     - api
+    - node-red
+    - broker
 
 volumes:
   node-red-data:
