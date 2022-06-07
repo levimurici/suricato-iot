@@ -1,0 +1,64 @@
+version: "3"
+
+services:
+  broker:
+    image: dendebaiano/suricato-mqtt:v1.6.9
+    networks:
+      - suricato-network
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints: [node.role == worker]
+  
+  node-red:
+    image: dendebaiano/suricato-nodered:1.1.1
+    ports:
+      - "1880:1880"
+    volumes:
+      - node-red-data:/data
+    user: "0"
+    networks:
+      - suricato-network
+    dns:
+      - 8.8.8.8
+    depends_on:
+      - broker
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints: [node.role == worker]
+
+  api:
+    image: dendebaiano/suricato-api:1.3.9
+    ports:
+     - 3000:3000
+    networks:
+     - suricato-network
+    depends_on:
+    - broker
+    - node-red
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints: [node.role == worker]
+    environment:
+      - API_PORT=3000
+      - MONGO_URL=mongodb://192.168.1.10:27017
+      - MONGO_DBNAME=local
+
+volumes:
+  node-red-data:
+
+networks:
+  suricato-network:
+    driver: overlay
+

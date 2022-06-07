@@ -1,0 +1,67 @@
+version: "3"
+
+services:
+  wd-bot:
+    image: dendebaiano/suricato-wd-bot:1.1.0
+    ports:
+     - 6969:6969
+    networks:
+     - suricato-network
+    dns:
+     - 8.8.8.8
+    depends_on:
+    - api
+    - node-red
+    - broker
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints: [node.role == worker]
+
+  wd-bot-motion:
+    image: dendebaiano/suricato-wd-bot-motion:1.0.1
+    ports:
+     - 6767:6767
+    networks:
+     - suricato-network
+    dns:
+     - 8.8.8.8
+    depends_on:
+    - api
+    - node-red
+    - broker
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints: [node.role == worker]
+  
+  main-bot:
+    image: dendebaiano/suricato-main-bot:1.1.1
+    ports:
+     - 6868:6868
+    networks:
+     - suricato-network
+    dns:
+     - 8.8.8.8
+    depends_on:
+    - api
+    - node-red
+    - broker
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints: [node.role == worker]
+
+volumes:
+  node-red-data:
+
+networks:
+  suricato-network:
+    driver: overlay
+

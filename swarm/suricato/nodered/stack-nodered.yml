@@ -1,0 +1,29 @@
+version: "3"
+
+services:  
+  node-red:
+    image: dendebaiano/suricato-nodered:1.1.1
+    ports:
+      - "1880:1880"
+    volumes:
+      - node-red-data:/data
+    user: "0"
+    networks:
+      - suricato-network
+    depends_on:
+      - broker
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints: [node.role == worker]
+
+
+volumes:
+  node-red-data:
+
+networks:
+  suricato-network:
+    driver: overlay
+

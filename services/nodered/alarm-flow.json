@@ -1,0 +1,155 @@
+[
+    {
+        "id": "1f17c67c7ea6aa67",
+        "type": "tab",
+        "label": "sonoff-1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "d385b0b12460c568",
+        "type": "mqtt in",
+        "z": "1f17c67c7ea6aa67",
+        "name": "device1/alarm1",
+        "topic": "device1/alarm1",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "7f12383eed7d02e5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "x": 180,
+        "y": 200,
+        "wires": [
+            [
+                "3c992ae9fac2b1f9"
+            ]
+        ]
+    },
+    {
+        "id": "3c992ae9fac2b1f9",
+        "type": "json",
+        "z": "1f17c67c7ea6aa67",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 370,
+        "y": 200,
+        "wires": [
+            [
+                "44a2272d1b21b0a4"
+            ]
+        ]
+    },
+    {
+        "id": "9114bed86ce5de8d",
+        "type": "debug",
+        "z": "1f17c67c7ea6aa67",
+        "name": "Feedback2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "15a2f66e5d650e39",
+        "type": "mqtt out",
+        "z": "1f17c67c7ea6aa67",
+        "name": "device1/relay1-sonoff",
+        "topic": "device1/relay1",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "7f12383eed7d02e5",
+        "x": 520,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "44a2272d1b21b0a4",
+        "type": "debug",
+        "z": "1f17c67c7ea6aa67",
+        "name": "Feedback1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "2687cd4acfa1a15f",
+        "type": "comment",
+        "z": "1f17c67c7ea6aa67",
+        "name": "Window1",
+        "info": "",
+        "x": 160,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "158c6219c2d2d8bc",
+        "type": "aedes broker",
+        "z": "1f17c67c7ea6aa67",
+        "name": "",
+        "mqtt_port": "1884",
+        "mqtt_ws_bind": "port",
+        "mqtt_ws_port": "",
+        "mqtt_ws_path": "",
+        "cert": "",
+        "key": "",
+        "certname": "",
+        "keyname": "",
+        "dburl": "",
+        "usetls": false,
+        "x": 190,
+        "y": 140,
+        "wires": [
+            [
+                "9114bed86ce5de8d"
+            ]
+        ]
+    },
+    {
+        "id": "7f12383eed7d02e5",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "127.0.0.1",
+        "port": "1884",
+        "clientid": "",
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    }
+]

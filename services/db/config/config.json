@@ -1,0 +1,14 @@
+{
+    "api": {
+        "port": 3000
+    },
+
+    "mongodb": {
+        "url": "mongodb://192.168.1.12:27017",
+        "dbName":"local",
+        "collection": "suricatoIot",
+        "usuario": "root",
+        "senha": "suricato",
+        "host": "dnd-server"
+    }
+}
